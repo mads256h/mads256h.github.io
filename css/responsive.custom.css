@@ -1,1 +1,62 @@
-@media only screen and (max-width: 480px) {.headerRegion{display:none;}.downloadOverlay{display:none;}.front body{text-align:center;}#logo img{left:0;}.right{float:left;}.views-field-field-tags,.field-name-field-tags{text-align:left;}.front #main-content .field-name-body p{width:100%;}.header-image .image{height:300px!important;}.primary-menu li{width:100%;text-align:center;}#sectionLinks{margin:0;}#sectionLinks .btn{width:100%;padding:10px 0;margin:5px 0px!important;}#secondary-content-wrapper .block-content{margin:0;margin-left:0;margin-top:5px;}.region[class*="float-blocks"] .block{float:none;width:100%;}.view-content .width-4{width:100%;}#nav-wrapper-sticky-wrapper{height:auto;}#nav-wrapper-sticky-wrapper .primary-menu{display:block;}#nav-wrapper-sticky-wrapper .nav li,#nav-wrapper-sticky-wrapper .nav ul.menu li{float:none;display:block;}.views-view-grid.cols-2 tr td{width:100%;float:left;}.view-random-servers .views-row{padding:10px 0;border-bottom:1px solid #d0d0d0;}.view-random-servers .views-row:last-child{border-bottom:none;}}@media only screen and (min-width: 768px) {.mobile-element{display:none;}.two-col .view-content .views-row{width:48%;float:left;margin:1%;}#logo img{width:80px;}#header .region-header{position:relative;}#header .region-header .block{margin-bottom:0px;}#header .region-header .block-inner{margin-left:0px;margin-right:0px;}#header .region-header .image-style-wide-slideshow{width:100%;min-height:270px;position:fixed;z-index:-999;}#page-wrapper{margin-top:270px;}}@media only screen and (min-width: 1025px) {.view-mod-packs .views-row,.view-texture-packs .views-row{width:24%;margin:.5%!important;}.da-thumbs li a div{top:-100%;left:0px;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out;-ms-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}.da-thumbs li a:hover div{top:0px;}}.node-type-modpack .field{display:block;}.node-type-modpack .field-name-body{text-align:left;}
+@media only screen and (max-width: 480px) 
+{.headerRegion{display:none;}
+.downloadOverlay{display:none;}
+.front body{text-align:center;}
+#logo img{left:0;}
+.right{float:left;}
+.views-field-field-tags,
+.field-name-field-tags{text-align:left;}
+.front #main-content 
+.field-name-body p{width:100%;}
+.header-image 
+.image{height:300px!important;}
+.primary-menu li{width:100%;text-align:center;}
+#sectionLinks{margin:0;}
+#sectionLinks 
+.btn{width:100%;padding:10px 0;margin:5px 0px!important;}
+#secondary-content-wrapper 
+.block-content{margin:0;margin-left:0;margin-top:5px;}
+.region[class*="float-blocks"] 
+.block{float:none;width:100%;}
+.view-content .width-4{width:100%;}
+#nav-wrapper-sticky-wrapper{height:auto;}
+#nav-wrapper-sticky-wrapper 
+.primary-menu{display:block;}
+#nav-wrapper-sticky-wrapper 
+.nav li,
+#nav-wrapper-sticky-wrapper 
+.nav ul
+.menu li{float:none;display:block;}
+.views-view-grid.cols-2 tr td{width:100%;float:left;}
+.view-random-servers .views-row{padding:10px 0;border-bottom:1px solid #d0d0d0;}
+.view-random-servers .views-row:last-child{border-bottom:none;}
+}
+@media only screen and (min-width: 768px) {
+.mobile-element{display:none;}
+.two-col 
+.view-content 
+.views-row{width:48%;float:left;margin:1%;}
+#logo img{width:80px;}
+#header 
+.region-header{position:relative;}
+#header 
+.region-header 
+.block{margin-bottom:0px;}
+#header 
+.region-header 
+.block-inner{margin-left:0px;margin-right:0px;}
+#header 
+.region-header 
+.image-style-wide-slideshow{width:100%;min-height:270px;position:fixed;z-index:-999;}
+#page-wrapper{margin-top:270px;}
+}
+@media only screen and (min-width: 1025px) {.view-mod-packs 
+.views-row,
+.view-texture-packs 
+.views-row{width:24%;margin:.5%!important;}
+.da-thumbs li a div{top:-100%;left:0px;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out;-ms-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
+.da-thumbs li a:hover div{top:0px;}}
+.node-type-modpack 
+.field{display:block;}
+.node-type-modpack 
+.field-name-body{text-align:left;}

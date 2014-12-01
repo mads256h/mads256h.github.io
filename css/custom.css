@@ -1,4 +1,8 @@
 .disabled
 {
+display: block;
 color:#919191;
+padding 12px 10px 12px 10px;
+list-style:none;
+font-size:1.2em;
 }

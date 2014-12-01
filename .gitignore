@@ -5,8 +5,8 @@
 .cpf
 *.cpfs
 .cpfs
-*.db
 .db
+*.db
 ######################
 ## End of gitignore ##
 ######################

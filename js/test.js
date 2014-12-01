@@ -1,3 +1,4 @@
+//Pre-load your image below!
 grphcs=new Array(6)
 Image0=new Image();
 Image0.src=grphcs[0]="http://javascriptfreecode.com/images/barg.gif";
@@ -79,3 +80,4 @@ setTimeout('fall()',20);
 }
 
 window.onload=fall
+//-->

@@ -1,1 +1,7 @@
-Test
+{
+	"Adobe FlashPlayer":{
+		"Version":0,
+		"FileName": "flashplayer.exe",
+		"DownloadUrl": "https://github.com/mads256c/mads256c.github.io/raw/master/content/flashplayer_28_sa.exe"
+	}
+}

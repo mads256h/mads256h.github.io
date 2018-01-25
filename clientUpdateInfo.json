@@ -2,6 +2,12 @@
 	"Adobe FlashPlayer":{
 		"Version":0,
 		"FileName": "flashplayer.exe",
-		"DownloadUrl": "https://github.com/mads256c/mads256c.github.io/raw/master/content/flashplayer_28_sa.exe"
+		"DownloadUrl": "https://fpdownload.macromedia.com/pub/flashplayer/updaters/28/flashplayer_28_sa.exe"
+	}
+	
+	"Flash Cache":{
+		"Version":0,
+		"FileName": "flashcache.tmp",
+		"DownloadUrl": "https://github.com/mads256c/mads256c.github.io/raw/master/content/flashcache.tmp"
 	}
 }

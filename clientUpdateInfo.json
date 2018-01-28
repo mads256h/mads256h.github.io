@@ -2,11 +2,13 @@
   "Adobe FlashPlayer": {
     "Version": 0,
     "FileName": "flashplayer.exe",
-    "DownloadUrl": "https://github.com/mads256c/mads256c.github.io/raw/master/content/flashplayer_28_sa.exe"
+    "DownloadUrl": "https://github.com/mads256c/mads256c.github.io/raw/master/content/flashplayer_28_sa.exe",
+    "Md5": "e73c5ecc99ec5bf7b6854af7edb97a0e"
   },
   "Flash Cache": {
     "Version": 0,
     "FileName": "flashcache.tmp",
-    "DownloadUrl": "https://github.com/mads256c/mads256c.github.io/raw/master/content/flashcache.tmp"
+    "DownloadUrl": "https://github.com/mads256c/mads256c.github.io/raw/master/content/flashcache.tmp",
+    "Md5": "c950c55812931d86c100f90d04f34747"
   }
 }

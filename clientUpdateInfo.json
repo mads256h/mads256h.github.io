@@ -1,8 +1,8 @@
 {
   "Adobe FlashPlayer": {
     "FileName": "flashplayer.exe",
-    "DownloadUrl": "https://github.com/mads256c/mads256c.github.io/raw/master/content/flashplayer.exe",
-    "MD5": "93a226fe28559107655b8fcb558a0149"
+    "DownloadUrl": "https://github.com/mads256c/mads256c.github.io/raw/master/content/flashplayerdebug.exe",
+    "MD5": "c0efbdc54dfe67493cf0ca04642e3724"
   },
   "Flash Cache": {
     "FileName": "flashcache.tmp",

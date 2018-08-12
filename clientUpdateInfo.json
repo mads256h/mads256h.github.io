@@ -1,17 +1,17 @@
 {
   "Adobe FlashPlayer": {
     "FileName": "flashplayer.exe",
-    "DownloadUrl": "https://github.com/mads256c/mads256c.github.io/raw/master/content/flashplayer.exe",
+    "DownloadUrl": "http://mads256c.github.io/content/flashplayer.exe",
     "MD5": "93a226fe28559107655b8fcb558a0149"
   },
   "Flash Cache": {
     "FileName": "flashcache.tmp",
-    "DownloadUrl": "https://github.com/mads256c/mads256c.github.io/raw/master/content/flashcache.tmp",
+    "DownloadUrl": "http://mads256c.github.io/content/flashcache.tmp",
     "MD5": "4028f6e1faeb2e28a5f1f856f38df70b"
   },
   "Flash Icons": {
     "FileName": "flashicons.icns",
-    "DownloadUrl": "https://github.com/mads256c/mads256c.github.io/raw/master/content/flashicons.icns",
+    "DownloadUrl": "http://mads256c.github.io/content/flashicons.icns",
     "MD5": "aef502da5f73717fef2032b031929834"
   }
 }

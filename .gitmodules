@@ -1,0 +1,3 @@
+[submodule "ohm"]
+	path = ohm
+	url = https://github.com/mads256c/ohm-calculator

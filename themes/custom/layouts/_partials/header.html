@@ -1,2 +1,46 @@
-<h1>{{ site.Title }}</h1>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">{{ site.Title }}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <button id="bd-theme" class="btn btn-link nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme">
+            <span class="fa theme-icon-active"></span>
+            <span id="bd-theme-text" class="d-lg-none">Toggle theme</span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme-text" data-bs-popper="static">
+            <li>
+              <button class="dropdown-item" type="button" data-bs-theme-value="light">
+                <span class="fa">&#xf185;</span>
+                Light
+              </button>
+            </li>
+            <li>
+              <button class="dropdown-item" type="button" data-bs-theme-value="dark">
+                <span class="fa">&#xf186;</span>
+                Dark
+              </button>
+            </li>
+            <li>
+              <button class="dropdown-item" type="button" data-bs-theme-value="auto">
+                <span class="fa">&#xf042;</span>
+                Auto
+              </button>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

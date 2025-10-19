@@ -1,3 +1,6 @@
 [submodule "ohm"]
-	path = ohm
+	path = static/old-content/ohm
 	url = https://github.com/mads256c/ohm-calculator
+[submodule "static/old-content/ohm"]
+	path = static/old-content/ohm
+	url = https://github.com/mads256h/ohm-calculator

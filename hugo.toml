@@ -3,6 +3,13 @@ languageCode = 'en-us'
 title = "Mads' blog"
 theme = 'custom'
 
+[markup]
+  [markup.highlight]
+  lineNos = true
+  style = 'onedark'
+  tabWidth = 2
+
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

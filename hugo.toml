@@ -1,6 +1,6 @@
 baseURL = 'https://madsmogensen.dk/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Mads' blog"
 theme = 'custom'
 
 [caches]

@@ -8,8 +8,6 @@
 (() => {
   'use strict'
 
-  let zoom = null
-
   const getStoredTheme = () => localStorage.getItem('theme')
   const setStoredTheme = theme => localStorage.setItem('theme', theme)
 
@@ -58,18 +56,6 @@
     if (focus) {
       themeSwitcher.focus()
     }
-
-    const background = window.getComputedStyle(document.body).getPropertyValue('--bs-body-bg')
-
-    if (zoom === null) {
-      zoom = mediumZoom(document.querySelectorAll("main img"), {
-        background: background
-      })
-    } else {
-      zoom.update({ background: background });
-    }
-
-
   }
 
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {

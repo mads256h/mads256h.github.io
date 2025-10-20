@@ -20,3 +20,18 @@ main figure.figure {
 main table, main table th, main table td {
   border-width: 1px;
 }
+
+.highlight {
+  position: relative;
+}
+
+.highlight .copy-button {
+  display: none;
+}
+
+.highlight:hover .copy-button {
+  display: unset;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}

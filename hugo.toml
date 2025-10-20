@@ -9,6 +9,13 @@ theme = 'custom'
   style = 'onedark'
   tabWidth = 2
 
+  [markup.goldmark]
+    [markup.goldmark.parser]
+    wrapStandAloneImageWithinParagaph = false
+
+      [markup.goldmark.parser.attribute]
+      block = true
+
 
 [caches]
   [caches.images]

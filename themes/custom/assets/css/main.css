@@ -6,6 +6,10 @@ main img {
   margin-right: auto;
 }
 
+main figure.figure {
+  display: block;
+}
+
 .highlight {
   margin-bottom: 1rem;
 }

@@ -1,0 +1,40 @@
+<table class="table table-striped"
+  {{- range $k, $v := .Attributes }}
+    {{- if $v }}
+      {{- printf " %s=%q" $k $v | safeHTMLAttr }}
+    {{- end }}
+  {{- end }}>
+  {{- with .Attributes.caption }}
+  <caption class="figure-caption text-center">{{ . | $.Page.RenderString }}</caption>
+  {{- end }}
+  <thead>
+    {{- range .THead }}
+      <tr>
+        {{- range . }}
+          <th scope="col"
+            {{- with .Alignment }}
+              {{- printf " style=%q" (printf "text-align: %s" .) | safeHTMLAttr }}
+            {{- end -}}
+          >
+            {{- .Text -}}
+          </th>
+        {{- end }}
+      </tr>
+    {{- end }}
+  </thead>
+  <tbody>
+    {{- range .TBody }}
+      <tr>
+        {{- range . }}
+          <td
+            {{- with .Alignment }}
+              {{- printf " style=%q" (printf "text-align: %s" .) | safeHTMLAttr }}
+            {{- end -}}
+          >
+            {{- .Text -}}
+          </td>
+        {{- end }}
+      </tr>
+    {{- end }}
+  </tbody>
+</table>

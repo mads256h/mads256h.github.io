@@ -37,8 +37,10 @@ Here is some numbered lists:
 
 Here is a table:
 
-| 1 | 2 | 3 | 4 | 5 |
-|---|---|---|---|---|
-| 6 | 7 | 8 | 9 | 0 |
-| a | b | c | d | e |
-| f | g | e | h | i |
+1  | 2 | 3 | 4 | 5
+---|---|---|---|---
+6  | 7 | 8 | 9 | 0
+a  | b | c | d | e
+f  | g | e | h | i
+{caption="This is the table caption."}
+

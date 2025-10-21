@@ -1,9 +1,9 @@
 /*!
- * Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)
- * Copyright 2011-2025 The Bootstrap Authors
- * Licensed under the Creative Commons Attribution 3.0 Unported License.
- * Modified by Mads Mogesnen 2025
- */
+* Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)
+* Copyright 2011-2025 The Bootstrap Authors
+* Licensed under the Creative Commons Attribution 3.0 Unported License.
+* Modified by Mads Mogesnen 2025
+*/
 
 (() => {
   'use strict'
@@ -40,7 +40,7 @@
     const themeSwitcherText = document.querySelector('#bd-theme-text')
     const activeThemeIcon = document.querySelector('.theme-icon-active')
     const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`)
-    const svgOfActiveBtn = btnToActive.querySelector('span.fa').innerText;
+    const svgOfActiveBtn = btnToActive.querySelector('.theme-choice').innerHTML;
 
     document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
       element.classList.remove('active')
@@ -49,7 +49,7 @@
 
     btnToActive.classList.add('active')
     btnToActive.setAttribute('aria-pressed', 'true')
-    activeThemeIcon.innerText = svgOfActiveBtn;
+    activeThemeIcon.innerHTML = svgOfActiveBtn;
     const themeSwitcherLabel = `${themeSwitcherText.textContent} (${btnToActive.dataset.bsThemeValue})`
     themeSwitcher.setAttribute('aria-label', themeSwitcherLabel)
 

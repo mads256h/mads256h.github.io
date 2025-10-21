@@ -3,11 +3,11 @@
 {{ $result.Wrapped }}
   <div class="code-buttons">
     {{- with .Attributes.link }}
-    <a class="btn btn-secondary btn-sm" data-toggle="tooltip" title="Open externally" target="_blank" {{ (printf "href=%q" .) | safeHTMLAttr }}>
+    <a class="btn btn-outline-light btn-sm" data-toggle="tooltip" title="Open externally" target="_blank" {{ (printf "href=%q" .) | safeHTMLAttr }}>
       <span class="fa-solid fa-up-right-from-square"></span>
     </a>
     {{- end }}
-    <button class="btn btn-secondary btn-sm" data-toggle="tooltip" title="Copy to clipboard" onclick="copyText(this)">
+    <button class="btn btn-outline-light btn-sm" data-toggle="tooltip" title="Copy to clipboard" onclick="copyText(this)">
       <span class="fa-solid fa-copy"></span>
     </button>
   </div>

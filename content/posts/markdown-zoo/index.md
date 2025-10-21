@@ -7,7 +7,7 @@ tags = ['fun']
 
 Hello world!
 
-```csharp
+```csharp {link="https://google.com"}
 using System;
 using System.IO;
 

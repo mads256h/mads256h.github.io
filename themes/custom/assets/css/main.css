@@ -1,7 +1,7 @@
 main img {
   display: block;
   max-width: 100%;
-  max-height: 450px;
+  max-height: 400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -10,9 +10,28 @@ main figure.figure {
   display: block;
 }
 
-.highlight {
+.code-block {
+  position: relative;
   margin-bottom: 1rem;
 }
+
+.code-block .code-buttons {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.code-block:hover .code-buttons {
+  opacity: 0.8;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.code-block code>span:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 .highlight pre {
   margin-bottom: 0;
 }
@@ -21,17 +40,9 @@ main table, main table th, main table td {
   border-width: 1px;
 }
 
-.highlight {
-  position: relative;
-}
-
-.highlight .copy-button {
-  display: none;
-}
-
-.highlight:hover .copy-button {
-  display: unset;
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
+main table.table {
+  width: unset;
+  min-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }

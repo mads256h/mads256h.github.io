@@ -19,14 +19,26 @@ main figure.figure {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  opacity: 0;
-  transition: opacity 0.1s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .code-block .code-buttons {
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+  }
+}
+
+@media (max-width: 768px) {
+  .code-block .code-buttons {
+    opacity: 0.8;
+  }
 }
 
 .code-block:hover .code-buttons {
   opacity: 0.8;
   transition: opacity 0.1s ease-in-out;
 }
+
 
 .code-block code>span:hover {
   background-color: rgba(0, 0, 0, 0.1);
